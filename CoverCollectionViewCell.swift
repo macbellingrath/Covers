@@ -12,5 +12,8 @@ class CoverCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    var albumInfo: Album!
+    
+    
     
 }

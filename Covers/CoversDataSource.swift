@@ -22,7 +22,8 @@ class CoversDataSource: NSObject,  UICollectionViewDataSource {
     
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CoverCollectionViewCell
+        cell.imageView.image = UIImage(data: NSData(contentsOfURL: NSURL(string: albums[indexPath.item].info.["artworkUrl30"])))
         
         //configure collection view cell
         

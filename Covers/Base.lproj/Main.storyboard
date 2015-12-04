@@ -59,7 +59,7 @@
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="fSv-ba-ZrT" id="cdJ-Ey-w0K"/>
-                                            <segue destination="fPf-DD-uXy" kind="show" id="mr6-sL-KT1"/>
+                                            <segue destination="fPf-DD-uXy" kind="show" identifier="showAlbumDetail" id="mr6-sL-KT1"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

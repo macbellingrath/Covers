@@ -9,6 +9,9 @@
 import UIKit
 
 class CoverDetailTableViewCell: UITableViewCell {
+    
+    
+  
 
     override func awakeFromNib() {
         super.awakeFromNib()

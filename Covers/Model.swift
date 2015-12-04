@@ -19,6 +19,7 @@ import Curry
 
 struct AlbumArgo {
     let name: String
+    
    
 }
 

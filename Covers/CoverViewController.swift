@@ -15,7 +15,6 @@ class CoverViewController: UIViewController, UISearchBarDelegate, UICollectionVi
     @IBOutlet weak var searchBar: UISearchBar!
     
     
-
     
     let coverData = CoversDataSource()
     
@@ -72,6 +71,17 @@ class CoverViewController: UIViewController, UISearchBarDelegate, UICollectionVi
         //
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "showAlbumDetail" {
+      
+        let cell = sender as! CoverCollectionViewCell
+        
+            
+        }
+        
+    }
 }
     
     
